@@ -1,0 +1,39 @@
+
+#adminmenu .wp-has-submenu:hover .wp-submenu {
+    display: block !important;
+}
+
+#adminmenu .wp-has-submenu .wp-submenu {
+    display: none;
+    position: absolute;
+}
+
+#adminmenu .wp-has-submenu:hover .wp-submenu {
+    display: block !important;
+}
+select,
+input[type="text"] {
+    height: 25px;
+    border: 1px solid #b4b4b4
+}
+
+input[type="number"] {
+    width: 80%;
+    height: 25px;
+    border-radius: 3px;
+}
+h2{
+    font-size: 24px;
+}
+label{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+span{    
+    font-size: 12px;
+}
+.div-input-group{
+    width:100%;
+}
+@media screen and (max-width: 480px) {
+}
